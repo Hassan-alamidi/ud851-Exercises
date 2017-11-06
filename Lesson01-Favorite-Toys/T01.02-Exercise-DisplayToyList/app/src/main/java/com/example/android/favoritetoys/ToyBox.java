@@ -65,8 +65,7 @@ public final class ToyBox {
                 "Squirt Guns",
                 "Miniature Replica Animals Stuffed with Beads that you swore to your parents would be worth lots of money one day",
                 "Creepy Gremlin Doll",
-                "Neodymium-Magnet Toy",
-                "one Toy added"
+                "Neodymium-Magnet Toy"
         };
     }
 }
