@@ -15,4 +15,5 @@
 -->
 <resources>
     <string name="app_name">Explicit Intent</string>
+    <string name="defaultText">This text is default</string>
 </resources>
