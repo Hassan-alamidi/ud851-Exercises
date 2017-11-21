@@ -49,7 +49,9 @@ public class MainActivity extends AppCompatActivity {
         mLifecycleDisplay = (TextView) findViewById(R.id.tv_lifecycle_events_display);
 
         if(savedInstanceState != null && savedInstanceState.containsKey(LIFECYCLE_CALLBACKS_TEXT_KEY)){
-            mLifecycleDisplay.setText(LIFECYCLE_CALLBACKS_TEXT_KEY);
+            //the string concatenated onto the save instance is just to better point out the previous state
+            String previousState = "\n old state: \n" + savedInstanceState.getString(LIFECYCLE_CALLBACKS_TEXT_KEY) + "\n end of old state \n";
+            mLifecycleDisplay.setText(previousState);
         }
         logAndAppend(ON_CREATE);
     }
