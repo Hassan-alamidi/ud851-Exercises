@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="bassDefault" >true</bool>
+    <bool name="midDefault">true</bool>
+    <bool name="trebleDefault">true</bool>
+</resources>
